@@ -1,8 +1,8 @@
 INSERT INTO reservations (guest_id, property_id, start_date, end_date) 
 VALUES (1, 1, '2018-09-11', '2018-09-26'),
 (2, 2, '2019-01-04', '2019-02-01'),
-(3, 3, '2021-10-01', '2021-10-14')
-(4, 2, '2020-01-04', '2020-02-01'),;
+(3, 3, '2021-10-01', '2021-10-14'),
+(4, 2, '2020-01-04', '2020-02-01');
  INSERT INTO users (name, email, password) 
 VALUES ('apama jamshidi', 'apama.jamshidi@gmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u. '),
 ('pouya amid', 'pouya.amid@gmail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u. '),
@@ -18,4 +18,4 @@ INSERT INTO property_reviews (guest_id, property_id, reservation_id, rating, mes
 VALUES (2, 1, 3, 6,'message'),
 (3, 1, 2, 10,'message'),
 (1, 2, 3, 6,'message'),
-(4, 4, 1, 4, 5,'message');
+(4, 4, 1, 5,'message');
